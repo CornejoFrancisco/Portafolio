@@ -1,128 +1,165 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "title": "Francisco Cornejo | Portafolio",
+    "description": "Descripción",
+    "image": "/foto_perfil.jpg",
+    "avatar": "/foto_perfil.jpg",
+    "name": "Francisco Cornejo",
+    "skill": "Desarrollador back-end",
+    "location": "Córdoba, Argentina",
     "media": {
-        "email": "neo@metacortex.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "email": "francisco.cornejo1978@gmail.com",
+        "cv": "/data/CV Francisco Cornejo.pdf",
+        "github": "https://github.com/CornejoFrancisco",
+        "likedin": "https://www.linkedin.com/in/franciscocornejo-/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Soy estudiante de cuarto año de Ingeniería en Sistemas de Información en la Facultad UTN - Regional Córdoba, mi objetivo es aprender y resolver problemas. Destaco por mi capacidad para adaptarme rápidamente a nuevas situaciones y trabajar eficazmente en equipos interdisciplinarios. Mi enfoque proactivo y mi voluntad de aprender me permiten abordar desafíos con determinación y creatividad. Me siento comprometido con la excelencia académica y el desarrollo profesional, busco oportunidades para aplicar mis habilidades técnicas y contribuir al éxito de proyectos innovadores. Con una mentalidad abierta y curiosidad constante, estoy preparado para enfrentar los desafíos cambiantes del campo de la ingeniería de sistemas con entusiasmo y determinación.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
-        },
-        {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-java-plain",
+            "name": "Java"
         },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
-        }
-    ],
-    "experience": [
-        {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+        "icon": "devicon-express-original",
+            "name" : "Express"
+        },
+        {
+            "icon": "devicon-nodejs-plain",
+            "name": "Node.js"
+        },
+        {
+            "icon": "devicon-mysql-plain",
+            "name": "MySql"
+        },
+        {
+            "icon": "devicon-spring-original",
+            "name": "Spring Boot"
+        },
+        {
+            "icon": "devicon-postman-plain",
+            "name": "Postman"
         }
+        
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "bike",
+            "title": "Alquiler de bicicletas",
+            "subtitle": "Gestion de alquileres de bicicletas en Córdoba",
+            "description": "Desarrollo de un sistema de alquiler de bicicletas para una ciudad. El sistema permitirá a los clientes registrados alquilar bicicletas, retirándolas de una estación y devolviéndolas en otra. Se garantiza la disponibilidad de bicicletas y espacio en las estaciones. El costo del alquiler se calcula al devolver la bicicleta, incluyendo un costo fijo, un costo por hora y un cargo por distancia entre estaciones. En días promocionales, se aplican descuentos. Los clientes pueden ver el costo en distintas monedas. Además, el sistema permitirá a los administradores agregar estaciones y obtener listados de alquileres.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-mysql-original",
+                    "name": "MySql"
+                },
+                {
+                    "icon": "devicon-hibernate-plain",
+                    "name": "Hibernate"
+                },
+                {
+                    "icon": "devicon-Microservicios-plain",
+                    "name": "Microservicios"
+                },
+                {
+                    "icon": "devicon-spring-original",
+                    "name": "Spring Boot"
                 }
             ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "image": "/alquiler_bici.jpg",
+
+            "github": "https://github.com/CornejoFrancisco/AlquilerBiciBackenEnd"
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "icon": "bike",
+            "title": "Empresa de alquiler de autos",
+            "subtitle": "Descripción del Sistema de Gestión de Alquiler de Autos",
+            "description": "Estamos desarrollando una API para una empresa especializada en alquiler de autos para compañías. Esta API permite gestionar alquileres, pagos, vehículos y clientes a través de varios endpoints: FinancialController para ver y gestionar alquileres pendientes de cobro y registrar pagos; CarRentalController con operaciones CRUD para gestionar alquileres, incluyendo la actualización del estado de pago; VehicleController para la gestión de vehículos, incluyendo la visualización de vehículos disponibles, adición, baja y actualización de millaje; ClientCompanyController que ofrece funcionalidades para administrar empresas clientes, como la creación, eliminación (si no hay alquileres impagos), consulta y asociación de empleados; y ClientController que gestiona operaciones CRUD estándar para clientes. Este sistema integral facilita la administración eficiente del alquiler de vehículos, optimizando tanto la operativa diaria como la gestión administrativa para la empresa de alquiler de autos.",
+
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "icon": "devicon-spring-original",
+                    "name": "Spring Boot"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/autos.jpg",
+            "github": "https://github.com/CornejoFrancisco/BackEndPractica"
+        },
+        {
+            "icon": "shopping-cart",
+            "title": "Tienda de articulos",
+            "subtitle": "Tienda de Artículos con Gestión de Inventario y Autenticación.Una aplicación web para una tienda tradicional que ofrece gestión de inventario y autenticación de usuarios.",
+            "description": "Permite a los clientes navegar por productos, realizar compras seguras y a los administradores gestionar el inventario y usuarios.",
+            "technologies": [
+                {
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "icon": "devicon-maven-plain",
+                    "name": "Maven"
+                },
+                {
+                    "icon": "devicon-spring-original",
+                    "name": "Spring Security"
+                },
+                {
+                "icon":"devicon-hibernate-plain",
+                    "name" : "Hibernate"
+                },
+                {
+                    "icon": "devicon-jjwt-plain",
+                    "name": "Jjwt"
+                },
+                {
+                    "icon": "devicon-spring-original-wordmark",
+                    "name": "Spring Boot"
+                },
+                {
+                    "icon": "devicon-mysql-original",
+                    "name" : "MySql"
+                }
+            ],
+            "image": "/tienda_articulos.jpg",
+            "github": "https://github.com/CornejoFrancisco/Tienda_articulos"
+        },
+        {
+            "icon": "line-chart",
+            "title": "Modelo monte carlo simulación",
+            "subtitle": "En este proyecto, desarrollé un modelo de simulación de Monte Carlo para determinar la mejor política de compra para un negocio específico.",
+            "description": "La simulación de Monte Carlo es una técnica de modelado que permite estimar la probabilidad de diferentes resultados en un proceso que no se puede fácilmente predecir debido a la intervención de variables aleatorias.",
+            "technologies": [
+                {
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "icon": "devicon-spring-original-wordmark",
+                    "name": "Spring Boot"
+                }
+
+            ],
+            "image": "/monte-carlo-marketing-image.jpg",
+            "github": "https://github.com/CornejoFrancisco/ModeloMonteCarlo"
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        },
-        {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
-        }
-    ],
-    "extras": [
-        {
-            "image": "/extra_1.jpg",
-            "title": "The Matrix",
-            "description": "Aparecí en esta película.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix"
-        },
-        {
-            "image": "/extra_2.jpg",
-            "title": "The Matrix Reloaded",
-            "description": "Y en esta otra.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Reloaded"
-        },
-        {
-            "image": "/extra_3.jpg",
-            "title": "The Matrix Revolutions",
-            "description": "Y en esta más.",
-            "url": "https://en.wikipedia.org/wiki/The_Matrix_Revolutions"
+            "title": "Estudiante de ingenieria en sistemas de informacion",
+            "subtitle": "Inicio de estudios: Marzo 2021 - Actualmente",
+            "description": "",
+            "date": ""
         }
     ]
 }

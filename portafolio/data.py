@@ -29,13 +29,6 @@ class Info:
         self.github = github
 
 
-class Extra:
-    def __init__(self, image, title, description, url):
-        self.image = image
-        self.title = title
-        self.description = description
-        self.url = url
-
 
 class Data:
     def __init__(
@@ -50,10 +43,8 @@ class Data:
             media,
             about,
             technologies,
-            experience,
             projects,
-            training,
-            extras
+            training
     ):
         self.title = title
         self.description = description
@@ -65,13 +56,12 @@ class Data:
         self.media = Media(**media)
         self.about = about
         self.technologies = [Technology(**tech) for tech in technologies]
-        self.experience = [Info(**info) for info in experience]
         self.projects = [Info(**info) for info in projects]
         self.training = [Info(**info) for info in training]
-        self.extras = [Extra(**info) for info in extras]
 
 
-with open("assets/data/data.json") as file:
+
+with open("assets/data/data.json", encoding='utf-8') as file:
     json_data = json.load(file)
 
 data = Data(**json_data)
