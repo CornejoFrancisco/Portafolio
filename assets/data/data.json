@@ -77,7 +77,7 @@
             "github": "https://github.com/CornejoFrancisco/AlquilerBiciBackenEnd"
         },
         {
-            "icon": "bike",
+            "icon": "car",
             "title": "Empresa de alquiler de autos",
             "subtitle": "Descripción del Sistema de Gestión de Alquiler de Autos",
             "description": "Estamos desarrollando una API para una empresa especializada en alquiler de autos para compañías. Esta API permite gestionar alquileres, pagos, vehículos y clientes a través de varios endpoints: FinancialController para ver y gestionar alquileres pendientes de cobro y registrar pagos; CarRentalController con operaciones CRUD para gestionar alquileres, incluyendo la actualización del estado de pago; VehicleController para la gestión de vehículos, incluyendo la visualización de vehículos disponibles, adición, baja y actualización de millaje; ClientCompanyController que ofrece funcionalidades para administrar empresas clientes, como la creación, eliminación (si no hay alquileres impagos), consulta y asociación de empleados; y ClientController que gestiona operaciones CRUD estándar para clientes. Este sistema integral facilita la administración eficiente del alquiler de vehículos, optimizando tanto la operativa diaria como la gestión administrativa para la empresa de alquiler de autos.",
