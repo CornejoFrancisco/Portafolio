@@ -72,7 +72,7 @@
                     "name": "Spring Boot"
                 }
             ],
-            "image": "/alquiler_bici.jpg",
+            "image": "/2.jpg",
 
             "github": "https://github.com/CornejoFrancisco/AlquilerBiciBackenEnd"
         },
@@ -92,7 +92,7 @@
                     "name": "Spring Boot"
                 }
             ],
-            "image": "/autos.jpg",
+            "image": "/3.jpg",
             "github": "https://github.com/CornejoFrancisco/BackEndPractica"
         },
         {
@@ -130,7 +130,7 @@
                     "name" : "MySql"
                 }
             ],
-            "image": "/tienda_articulos.jpg",
+            "image": "/1.jpg",
             "github": "https://github.com/CornejoFrancisco/Tienda_articulos"
         },
         {
@@ -149,7 +149,7 @@
                 }
 
             ],
-            "image": "/monte-carlo-marketing-image.jpg",
+            "image": "/4.jpg",
             "github": "https://github.com/CornejoFrancisco/ModeloMonteCarlo"
         }
     ],
