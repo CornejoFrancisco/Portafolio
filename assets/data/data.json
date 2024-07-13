@@ -151,6 +151,33 @@
             ],
             "image": "/4.jpg",
             "github": "https://github.com/CornejoFrancisco/ModeloMonteCarlo"
+        },
+        {
+            "icon": "line-chart",
+            "title": "Simulacion de Banco",
+            "subtitle": "En este proyecto, desarrollé la simulacion de un banco con algunas funcionalidad basicas.",
+            "description": "Este simulador de banco está desarrollado con Spring Boot y permite la gestión de cuentas bancarias, incluyendo la creación de cuentas, transferencias entre ellas y la consulta de saldos.",
+            "technologies": [
+                {
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
+                },
+                {
+                    "icon": "devicon-hibernate-plain",
+                    "name": "Hibernate"
+                },
+                {
+                    "icon": "devicon-mysql-plain",
+                    "name": "MySql"
+                },
+                {
+                    "icon": "devicon-spring-original-wordmark",
+                    "name": "Spring Boot"
+                }
+
+            ],
+            "image": "/4.jpg",
+            "github": "https://github.com/CornejoFrancisco/bank"
         }
     ],
     "training": [
