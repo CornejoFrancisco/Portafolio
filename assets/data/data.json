@@ -97,41 +97,21 @@
         },
         {
             "icon": "shopping-cart",
-            "title": "Tienda de articulos",
-            "subtitle": "Tienda de Artículos con Gestión de Inventario y Autenticación.Una aplicación web para una tienda tradicional que ofrece gestión de inventario y autenticación de usuarios.",
-            "description": "Permite a los clientes navegar por productos, realizar compras seguras y a los administradores gestionar el inventario y usuarios.",
+            "title": "Gestor de biblioteca",
+            "subtitle": "Sistema de gestión de biblioteca que facilita la administración de libros disponibles y los préstamos asociados.",
+            "description": "Permite registrar usuarios, gestionar préstamos y devoluciones, así como registrar autores y libros en el inventario.",
             "technologies": [
                 {
-                    "icon": "devicon-java-plain",
-                    "name": "Java"
-                },
-                {
-                    "icon": "devicon-maven-plain",
-                    "name": "Maven"
-                },
-                {
-                    "icon": "devicon-spring-original",
-                    "name": "Spring Security"
-                },
-                {
-                "icon":"devicon-hibernate-plain",
-                    "name" : "Hibernate"
-                },
-                {
-                    "icon": "devicon-jjwt-plain",
-                    "name": "Jjwt"
-                },
-                {
-                    "icon": "devicon-spring-original-wordmark",
-                    "name": "Spring Boot"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
                 },
                 {
                     "icon": "devicon-mysql-original",
                     "name" : "MySql"
                 }
             ],
-            "image": "/1.jpg",
-            "github": "https://github.com/CornejoFrancisco/Tienda_articulos"
+            "image": "/6.jpg",
+            "github": "https://github.com/CornejoFrancisco/DAO"
         },
         {
             "icon": "line-chart",
