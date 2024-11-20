@@ -96,7 +96,7 @@
             "github": "https://github.com/CornejoFrancisco/BackEndPractica"
         },
         {
-            "icon": "shopping-cart",
+            "icon": "book",
             "title": "Gestor de biblioteca",
             "subtitle": "Sistema de gestión de biblioteca que facilita la administración de libros disponibles y los préstamos asociados.",
             "description": "Permite registrar usuarios, gestionar préstamos y devoluciones, así como registrar autores y libros en el inventario.",
